@@ -1,0 +1,10 @@
+.infoBtn{
+    box-shadow: 0 0 2px green ,0 0 8px royalblue, inset 0 0 8px lightskyblue;
+    transition: font-size .3s ease, transform .3s ease, box-shadow .4s ease;
+    border: 0;
+}
+
+.infoBtn:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 2px cornflowerblue, 0 0 69px dodgerblue, inset 0 0 16px lightskyblue, inset 0 0 16px lightseagreen;
+}
